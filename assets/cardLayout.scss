@@ -1,0 +1,32 @@
+@use "sass:color";
+@use "./theme" as t;
+
+.card_title_text {
+  color: t.$contra_text;
+}
+
+.card_title, .card_heading {
+  font-weight: 600;
+  font-size: t.$middle_title;
+  line-height: 1.75em;
+}
+
+.complete_message_middle {
+  font-weight: 600;
+  font-size: t.$middle_title;
+  line-height: 1.75em;
+  color: t.$brand;
+}
+
+.complete_message_large {
+  font-weight: 600;
+  font-size: t.$big_title;
+  line-height: 2em;
+  color: t.$brand;
+}
+
+.signup_link {
+  font-size: t.$middle_text;
+  color: t.$brand;
+}
+

@@ -1,0 +1,10 @@
+@use "sass:color";
+@use "./theme" as t;
+@use "vuetify" with ($body-font-family: t.$family, $heading-font-family: t.$family);
+
+// 使用したいscssを増やす
+// @use "body";
+// @use "font";
+// @use "table";
+// @use "navigator";
+// @use "cardLayout"

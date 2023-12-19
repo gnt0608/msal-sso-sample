@@ -1,0 +1,32 @@
+@import "./color";
+
+:export {
+    brand: $brand;
+    primary: $primary;
+    normal_text: $normal_text;
+    sub_text: $sub_text;
+    contra_text: $contra_text;
+    surface: $surface;
+    mono01: $mono01;
+    mono02: $mono02;
+    mono03: $mono03;
+    mono04: $mono04;
+    mono05: $mono05;
+    mono06: $mono06;
+    mono07: $mono07;
+    mono08: $mono08;
+    mono09: $mono09;
+    mono10: $mono10;
+    card: $card;
+    card_border: $card_border;
+    success: $success;
+    success_sub: $success_sub;
+    warning: $warning;
+    warining_sub: $warining_sub;
+    info: $info;	
+    info_sub: $info_sub;
+    error: $error;
+    error_sub: $error_sub;
+    terminated: $terminated;
+    terminated_sub: $terminated_sub;
+}
