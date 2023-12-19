@@ -35,7 +35,7 @@ export default defineNuxtConfig({
   css: ["@/assets/main.scss"],
   app: {
     head: {
-      title: "SeatManager",
+      title: "MSAL-Sample",
       meta: [{ name: "viewport", content: "width=device-width, initial-scale=1" }],
     },
   },

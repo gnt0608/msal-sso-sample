@@ -1,6 +1,6 @@
 <template>
   <v-app-bar app color="primary" dark clippedLeft>
-    <v-toolbar-title class="ml-3"> ABI</v-toolbar-title>
+    <v-toolbar-title class="ml-3"></v-toolbar-title>
     <div class="d-flex align-center">
       <router-link to="/"> </router-link>
     </div>
@@ -12,9 +12,6 @@
 </template>
 
 <script setup lang="ts">
-
 let tab = ref("")
-onMounted(() => {
-})
-
+onMounted(() => {})
 </script>
